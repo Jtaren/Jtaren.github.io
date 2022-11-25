@@ -27,7 +27,7 @@ export default function Home() {
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl"/>
               </li>
               <li>
-                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md" href="https://github.com/Jtaren" target="_blank">GitHub</a></li>
+                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md" href="https://github.com/Jtaren" target="_blank" rel="noreferrer noopener">GitHub</a></li>
             </ul>
           </nav>
           
@@ -39,9 +39,9 @@ export default function Home() {
           </p>
           </div>
           <div className="text-5xl flex justify-center gap-20 py-3 text-gray-600 dark:text-gray-400">
-          <a href="https://twitter.com/jt_aren" target="_blank"><AiFillTwitterCircle /></a>
-          <a href="https://www.linkedin.com/in/jtaren/" target="_blank"><AiFillLinkedin /></a>
-          <a href="https://www.youtube.com/" target="_blank"><AiFillYoutube /></a>
+          <a href="https://twitter.com/jt_aren" target="_blank" rel="noreferrer noopener"><AiFillTwitterCircle /></a>
+          <a href="https://www.linkedin.com/in/jtaren/" target="_blank" rel="noreferrer noopener"><AiFillLinkedin /></a>
+          <a href="https://www.youtube.com/" target="_blank " rel="noreferrer noopener"><AiFillYoutube /></a>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 mt-20 overflow-hidden">
             <Image alt="JtAren" src={deved} layout="fill" objectFit="cover"/>
