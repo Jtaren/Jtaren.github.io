@@ -71,7 +71,7 @@ export default function Home() {
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image alt="code" src={tags} width={300} height={300} />
-              <p className="text-lg font-medium pt-8 pb-2">I teach full Stack Web Development Courses for Absolute Beginners that are passionate about coding, with fundamentals in HTML, CSS and Javascript</p>
+              <p className="text-lg font-medium pt-8 pb-2">I teach full Stack web development courses for absolute beginners that are passionate about coding, with fundamentals in HTML, CSS and Javascript</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <Image alt="consulting" src={consulting} width={300} height={300} />
